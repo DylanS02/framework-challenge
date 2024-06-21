@@ -1,1 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7e9;
+    color: #003300;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #c0ecc5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
