@@ -25,3 +25,17 @@ header h1 {
     margin: 0;
     color: #007f4b;
 }
+
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    color: #005c33;
+    border-bottom: 1px solid #a0e0b5;
+    padding-bottom: 10px;
+}
+
+section p, section ul {
+    padding: 0 20px;
+}
