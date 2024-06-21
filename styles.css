@@ -39,3 +39,36 @@ section h2 {
 section p, section ul {
     padding: 0 20px;
 }
+
+ul {
+    list-style-type: square;
+}
+
+.pieces {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.piece {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #a0e0b5;
+    border-radius: 10px;
+    background-color: #f0fff4;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.piece img {
+    max-width: 100px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #a0e0b5;
+    margin-top: 20px;
+}
+
