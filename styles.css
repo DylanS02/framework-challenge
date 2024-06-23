@@ -70,6 +70,10 @@ ul {
     height: auto;
 }
 
+.rules-content {
+    padding: 0 20px;
+}
+
 footer {
     text-align: center;
     padding: 20px 0;
