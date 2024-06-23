@@ -24,38 +24,42 @@
                 <li>Portable Design</li>
             </ul>
         </section>
-         <section class="pieces">
+        <section class="pieces">
             <h2>Chess Pieces</h2>
             <div class="chess-set">
-                <div class="piece">
+                <div class="piece" data-rule="The king moves one square in any direction.">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Chess_klt45.svg" alt="King">
                     <p>King</p>
                 </div>
-                <div class="piece">
+                <div class="piece" data-rule="The queen moves any number of vacant squares in any direction.">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/1/15/Chess_qlt45.svg" alt="Queen">
                     <p>Queen</p>
                 </div>
-                <div class="piece">
+                <div class="piece" data-rule="The bishop moves any number of vacant squares diagonally.">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Chess_blt45.svg" alt="Bishop">
                     <p>Bishop</p>
                 </div>
-                <div class="piece">
+                <div class="piece" data-rule="The knight moves in an 'L' shape: two squares in a horizontal or vertical direction, then one square perpendicular.">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/7/70/Chess_nlt45.svg" alt="Knight">
                     <p>Knight</p>
                 </div>
-                <div class="piece">
+                <div class="piece" data-rule="The rook moves any number of vacant squares in a horizontal or vertical direction.">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Chess_rlt45.svg" alt="Rook">
                     <p>Rook</p>
                 </div>
-                <div class="piece">
+                <div class="piece" data-rule="The pawn moves forward one square, with the option to move two squares if they have not yet moved. Pawns capture one square diagonally in a forward direction.">
                     <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Chess_plt45.svg" alt="Pawn">
                     <p>Pawn</p>
                 </div>
             </div>
+            <div class="rules">
+                <p id="piece-rule"></p>
+            </div>
         </section>
-         <footer>
-            <p>2024 HoloChess Inc.</p>
+        <footer>
+            <p>&copy; 2024 Holographic Chess Inc.</p>
         </footer>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
